@@ -2,18 +2,17 @@
 title: Network Analysis in R
 author: David Werner-Sexton
 layout: post
-output:
-  md_document:
-    variant: markdown_github
-  
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
-
-## Network Analysis
+### Network Analysis
 
 In a recent project I wanted to explore relationships using a graphical representation and found that there wasn't much documentation on the subject and even less that didn't deal directly with people. The best resource I found was here: {Give Site Name}
 
 Putting that together with a few other sources led me to the final conclusion so here are the steps that I took to get there. 
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(igraph) # Need this for the graph creation
+library(dplyr) # Need this because I'm an addict
+```
