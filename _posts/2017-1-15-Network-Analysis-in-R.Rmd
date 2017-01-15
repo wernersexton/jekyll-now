@@ -1,7 +1,6 @@
 ---
 title: "Network Analysis in R"
 author: "David Werner-Sexton"
-date: "1/15/2017"
 output:
   md_document:
     variant: markdown_github
